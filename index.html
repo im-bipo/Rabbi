@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/b63f536415.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo">RABBI
+            <img class="gif-img" src="./image/rbg1.gif" alt="">
+        </h1>
+        <ul class="menu">
+            <a onclick="myFunction()" ><li class="selected">Home</li></a>
+            <a onclick="myFunction()" ><li>Store </li></a>
+            <a onclick="myFunction()" ><li>Blog</li></a>    
+            <a onclick="myFunction()" ><li>About  Us</li> </a>
+            <a onclick="myFunction()" ><li>Contact  Us</li> </a>
+        </ul>
+    </nav>
+    <!-- <hr class="line"> -->
+    <section class="header">
+        <!--this is header-->
+        <!-- class:'d-sloid' is for device with screen more than 420px 
+             class:'d-none' is for device with screen less than 420px-->
+        <section class="h-title d-solid">
+            <!--this is main title-->
+            <h1 class="title">Homested<br> Rabbit
+                <i class="fa-solid fa-tricycle"></i>
+            </h1>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vitae non architecto minus quo dolore
+                reiciendis temporibus exercitationem iste illum, e Lorem ipsum dolor sit amet, consectetur adipisicing
+                eldio non, similique asperiores! um blanditiis officiis ducimus culpa sunt pariatur fugit ratione
+                aperiam omnis assumenda cupiditate voluptas!</p>
+        </section>
+        <section class="h-title-none d-none">
+            <!--this is main title-->
+            <h1 class="title">Homested<br> Rabbit
+                <i class="fa-solid fa-tricycle"></i>
+            </h1>
+            <section class="h-picture d-none">
+                <!--this is picture-->
+                <article class="h-img img-2">
+                    <img src="./image/rb2.png" alt="">
+                </article>
+                <article class="h-img img-3">
+                    <img src="./image/rb3.png" alt="">
+                </article>
+                <article class="h-img img-1">
+                    <img id="rabbit-p" src="./image/rabit.png" alt="">
+                </article>
+            </section>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vitae non architecto minus quo dolore
+                reiciendis temporibus exercitationem iste illum, e Lorem ipsum dolor sit amet, consectetur adipisicing
+                eldio non, similique asperiores! um blanditiis officiis ducimus culpa sunt pariatur fugit ratione
+                aperiam omnis assumenda cupiditate voluptas!</p>
+        </section>
+        <section class="h-picture d-solid">
+            <!--this is picture-->
+            <article class="h-img img-2">
+                <img src="./image/rb2.png" alt="">
+            </article>
+            <article class="h-img img-3">
+                <img src="./image/rb3.png" alt="">
+            </article>
+            <article class="h-img img-1">
+                <img id="rabbit-p" src="./image/rabit.png" alt="">
+            </article>
+        </section>
+    </section>
+    
+    <section class="services">
+        <!--this is service section-->
+        <h3 class="sub-heading">Our Service</h3>
+        <div class="box-container">
+            <article class="s-box">
+                <div class="icon">
+                    <i class="fa-solid fa-bowl-food"></i>
+                </div>
+                <div class="text">
+                    <h3> pet food store</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet tempora eligendi, nulla
+                        aperiam omnis. Maiores, molestiaequae. Beatae, officiis.</p>
+                    <a onclick="myFunction()"href="#food" class="s-view-more" >View More...</a>
+                </div>
+            </article>
+            <article class="s-box">
+                <div class="icon">
+                    <i class="fa-solid fa-paw"></i>
+                </div>
+                <div class="text">
+                    <h3>pet traning</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet tempora eligendi, nulla
+                        aperiam omnis. Maiores, molestiaequae. Beatae, officiis.</p>
+                    <a onclick="myFunction()"href="#food" class="s-view-more">View More...</a>
+                </div>
+            </article>
+            <article class="s-box">
+                <div class="icon">
+                    <i class="fa-solid fa-mars-double"></i>
+                </div>
+                <div class="text">
+                    <h3>pet breeding</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet tempora eligendi, nulla
+                        aperiam omnis. Maiores, molestiaequae. Beatae, officiis.</p>
+                    <a onclick="myFunction()"href="#food" class="s-view-more">View More...</a>
+                </div>
+            </article>
+            <article class="s-box">
+                <div class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div class="text">
+                    <h3>buy pet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet tempora eligendi, nulla
+                        aperiam omnis. Maiores, molestiaequae. Beatae, officiis.</p>
+                    <a onclick="myFunction()"href="#food" class="s-view-more">View More...</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!--this is blog section-->
+    <section class="blog">
+        <h3 class="sub-heading">Blog</h3>
+        <div class="blog-container">
+            <article class="blog-box">
+                <img src="./image/rb2.png" alt="">
+                <h3>How to raise babyes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum!</p>
+                <a onclick="myFunction()"href="#food" class="blog-view-more">View More...</a>
+            </article>
+            <article class="blog-box">
+                <img src="./image/rb2.png" alt="">
+                <h3>How to raise babyes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum!</p>
+                <a onclick="myFunction()"href="#food" class="blog-view-more">View More...</a>
+            </article>
+            <article class="blog-box">
+                <img src="./image/rb2.png" alt="">
+                <h3>How to raise babyes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum!</p>
+                <a onclick="myFunction()"href="#food" class="blog-view-more">View More...</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!--this is store section-->
+    <section class="store">
+        <h3 class="sub-heading">Store</h3>
+        <div class="store-container">
+            <article class="store-box">
+                <div class="img">
+                    <img src="./image/rbs1.jpg" alt="">
+                </div>
+                <h3>Baby food</h3>
+                <p>2.99$</p>
+                <div class="button">
+                    <a onclick="myFunction()"href="#amazon" class="button-img">
+                        <img class="amazon-img" src="./image/button/am.png" alt="Amazon">
+                    </a>
+                    <a onclick="myFunction()"href="#ebay" class="button-img">
+                        <img class="ebay-img" src="./image/button/ebay.png" alt="ebay">
+                    </a>
+                </div>
+            </article>
+            <article class="store-box">
+                <div class="img">
+                    <img src="./image/rbs1.jpg" alt="">
+                </div>
+                <h3>Baby food</h3>
+                <p>2.99$</p>
+                <div class="button">
+                    <a onclick="myFunction()"href="#amazon" class="button-img">
+                        <img class="amazon-img" src="./image/button/am.png" alt="Amazon">
+                    </a>
+                    <a onclick="myFunction()"href="#ebay" class="button-img">
+                        <img class="ebay-img" src="./image/button/ebay.png" alt="ebay">
+                    </a>
+                </div>
+            </article>
+            <article class="store-box">
+                <div class="img">
+                    <img src="./image/rbs1.jpg" alt="">
+                </div>
+                <h3>Baby food</h3>
+                <p>2.99$</p>
+                <div class="button">
+                    <a onclick="myFunction()"href="#amazon" class="button-img">
+                        <img class="amazon-img" src="./image/button/am.png" alt="Amazon">
+                    </a>
+                    <a onclick="myFunction()"href="#ebay" class="button-img">
+                        <img class="ebay-img" src="./image/button/ebay.png" alt="ebay">
+                    </a>
+                </div>
+            </article>
+            <article class="store-box">
+                <div class="img">
+                    <img src="./image/rbs1.jpg" alt="">
+                </div>
+                <h3>Baby food</h3>
+                <p>2.99$</p>
+                <div class="button">
+                    <a onclick="myFunction()"href="#amazon" class="button-img">
+                        <img class="amazon-img" src="./image/button/am.png" alt="Amazon">
+                    </a>
+                    <a onclick="myFunction()"href="#ebay" class="button-img">
+                        <img class="ebay-img" src="./image/button/ebay.png" alt="ebay">
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--this is footer-->
+    <footer>
+        <h1 class="center">Homested Rabbit</h1>
+        <div class="fl-container">
+            <article class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a onclick="myFunction()"href="#link">Home</a></li>
+                    <li><a onclick="myFunction()"href="#link">About Us</a></li>
+                    <li><a onclick="myFunction()"href="#link">Blog</a></li>
+                    <li><a onclick="myFunction()"href="#link">Contact</a></li>
+                    <li><a onclick="myFunction()"href="#link">Store</a></li>
+                </ul>
+            </article>
+            <article class="footer-links">
+                <h3>Blog</h3>
+                <ul>
+                    <li><a onclick="myFunction()"href="#link">Take proper health care</a></li>
+                    <li><a onclick="myFunction()"href="#link">Lorem, ipsum dolor.</a></li>
+                    <li><a onclick="myFunction()"href="#link">Lorem ipsum dolor sit.</a></li>
+                    <li><a onclick="myFunction()"href="#link">Lorem, ipsum.</a></li>
+                    <li><a onclick="myFunction()"href="#link">Lorem, ipsum dolor.</a></li>
+                </ul>
+            </article>
+            <article class="footer-links">
+                <h3>Our Trainer</h3>
+                <ul>
+                    <li><a onclick="myFunction()"href="#link">John Doe</a></li>
+                    <li><a onclick="myFunction()"href="#link">Harry Clint</a></li>
+                    <li><a onclick="myFunction()"href="#link">Liza Doe</a></li>
+                    <li><a onclick="myFunction()"href="#link">Rhon Doe</a></li>
+                </ul>
+            </article>
+            <article class="footer-links">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a onclick="myFunction()"href="#link">Facebook</a></li>
+                    <li><a onclick="myFunction()"href="#link">Instagram</a></li>
+                    <li><a onclick="myFunction()"href="#link">Tit-tok</a></li>
+                    <li><a onclick="myFunction()"href="#link">Twiter</a></li>
+                </ul>
+            </article>
+        </div>
+        <h6 class="center">homested rabbit © 2022</h6>
+    </footer>
+
+    <script>
+        function myFunction() {
+          alert("This is just a prototype. To get full website place a order. Thank you !!!");
+        }
+        </script>
+</body>
+
+</html>
